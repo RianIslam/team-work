@@ -12,9 +12,9 @@ const Header = () => {
     // const cars = useSelector(selectCars)
     return (
         <Container>
-            <a href="">
-                <strong>LAMBOR REACER</strong>
-            </a>
+            <Link to="/home">
+                <strong>AVENTADOR</strong>
+            </Link>
             <Menu>
             <Link to="/home">Home</Link>
             <Link to="/models">Model-Details</Link>
@@ -41,14 +41,12 @@ const Header = () => {
             )} */}
 
 
-                
-                <li><a href="#">Used Inventory</a></li>
+                <li><Link to="/home">Home</Link></li>
+                <li><Link to="/models">Model-Details</Link></li>
                 <li><a href="#">Trade-in</a></li>
                 <li><a href="#">Cybertruck</a></li>
                 <li><a href="#">Roadaster</a></li>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Existing Inventory</a></li>
+                
             </BurgerNav>
 
             
@@ -68,6 +66,7 @@ top: 0;
 left: 0;
 right: 0;
 z-index:10;
+background-color: #e8e4d9;
 
 `
 
@@ -111,7 +110,7 @@ position: fixed;
 top: 0;
 bottom: 0;
 right: 0;
-background: purple;
+background: #e8e4d9;
 width: 300px;
 z-index:16;
 list-style: none;

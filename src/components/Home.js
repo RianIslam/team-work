@@ -6,28 +6,28 @@ const Home = () => {
     return (
         <Container>
             <Section
-                title="Model S"
+                title="Huracán"
                 description="Order Online for Touch delivery"
                 backgroundImg="model-s.jpg"
                 leftBtnText="Custom order"
                 rightBtnText="Existing inventory"
             />
             <Section
-                title="Model Y"
+                title="Aventador S"
                 description="Order Online for Touch delivery"
                 backgroundImg="model-y.jpg"
                 leftBtnText="Custom order"
                 rightBtnText="Existing inventory"
             />
             <Section
-                title="Model 3"
+                title="Urus"
                 description="Order Online for Touch delivery"
                 backgroundImg="model-3.jpg"
                 leftBtnText="Custom order"
                 rightBtnText="Existing inventory"
             />
             <Section
-                title="Model X"
+                title="Huracán EVO"
                 description="Order Online for Touch delivery"
                 backgroundImg="model-x.jpg"
                 leftBtnText="Custom order"

@@ -1,0 +1,88 @@
+.carDetailes{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/4777286/pexels-photo-4777286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.Footer{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/6891804/pexels-photo-6891804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.padding{
+    padding-top:350px;
+}
+
+.commonBtn{
+    border: 3px solid white;
+    border-radius:20px;
+    padding:4px 30px;
+    font-size: 13px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.commonBtn:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.newBtn{
+    border: 3px solid black;
+    border-radius:20px;
+    padding:4px 30px;
+    font-size: 13px;
+    background: transparent;
+    
+    font-weight: bold;
+}
+.newBtn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.Experience{
+    padding-top:400px;
+}
+
+.ExperienceBtn{
+    border: 3px solid white;
+    border-radius:20px;
+    padding:4px 30px;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.ExperienceBtn:hover{
+    
+    color: black;
+
+}
+
+.compareBtn{
+    border: 3px solid white;
+    border-radius:20px;
+    padding:4px 30px;
+    font-size: 13px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.compareBtn:hover{
+    background-color: white;
+    color: black;
+
+}
