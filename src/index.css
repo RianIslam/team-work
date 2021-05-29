@@ -14,7 +14,9 @@ body{
 }
 a{
   text-decoration: none;
+  color: #000000;
 }
+
 @keyframes animateDown{
   0%,20%,50%,80%,100%{
     transform: translateY(0);
@@ -26,4 +28,20 @@ a{
 
     transform: translateY(3px);
   }
+}
+
+h1,h2,h3,h4,h5,h6{
+
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a,Link,p{
+  font-family: 'Montserrat', sans-serif;
+  color: dimgray;
+}
+
+
+span{
+  font-family: 'Sigmar One', cursive;
+  font-size: 30px;
 }

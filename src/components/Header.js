@@ -13,7 +13,9 @@ const Header = () => {
     return (
         <Container>
             <Link to="/home">
-                <strong>AVENTADOR</strong>
+                <span>
+                AVENTADOR
+                </span>
             </Link>
             <Menu>
             <Link to="/home">Home</Link>

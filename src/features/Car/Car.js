@@ -92,24 +92,31 @@ const Car = () => {
         </h1>
 
         <div className="row">
-          <div className="col-md-3"></div>
-          <div className="col-md-6 padding">
+          <div className="col-md-2"></div>
+          <div className="col-md-8 padding">
             <div className=" d-flex justify-content-center text-center p-5 ">
-              <div className=" p-5">
-                <h2 className="text-white">3.1S</h2>
+              <div className=" ps-4">
+                <h2 className="text-white">390 mi</h2>
+                <p className="text-white">Range (est.)</p>
               </div>
-              <div className=" p-5">
-                <h2 className="text-white">353 mi</h2>
+              <div className=" ps-4">
+                <h2 className="text-white">1.99 s</h2>
+                <p className="text-white">0-60 mph*</p>
               </div>
-              <div className=" p-5">
-                <h2 className="text-white">AWD</h2>
+              <div className=" ps-4">
+                <h2 className="text-white">200 mph</h2>
+                <p className="text-white">Top Speed†</p>
               </div>
-              <div className=" p-5">
+              <div className=" ps-4">
+                <h2 className="text-white">1,020 hp</h2>
+                <p className="text-white">Peak Power</p>
+              </div>
+              <div className=" pt-4 ps-4">
                 <button className="commonBtn">ORDER</button>
               </div>
             </div>
           </div>
-          <div className="col-md-3"></div>
+          <div className="col-md-2"></div>
         </div>
       </div>
 
