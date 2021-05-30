@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Section = ({title, description ,leftBtnText,rightBtnText, backgroundImg}) => {
     
+    useEffect(() => {
+        AOS.init({ duration: 1500 });
+      }, []);
+
+
     return (
         <Wrap bgImage={backgroundImg}>
-            <ItemText>
+            <ItemText  data-aos="fade-up">
                 <h1>{title}</h1>
                 <h6>{description}</h6>
             </ItemText>
 
-        <Buttons>
-            <ButtonGroup>
+        <Buttons  data-aos="fade-down">
+            <ButtonGroup >
                 <LeftButton>
                     {leftBtnText}
                 </LeftButton>
