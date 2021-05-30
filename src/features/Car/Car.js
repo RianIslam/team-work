@@ -92,8 +92,8 @@ const Car = () => {
         </h1>
 
         <div className="row">
-          <div className="col-md-2"></div>
-          <div className="col-md-8 padding">
+          <div className="col-md-1"></div>
+          <div className="col-md-10 padding">
             <div className=" d-flex justify-content-center text-center p-5 ">
               <div className=" ps-4">
                 <h2 className="text-white">390 mi</h2>
@@ -111,12 +111,12 @@ const Car = () => {
                 <h2 className="text-white">1,020 hp</h2>
                 <p className="text-white">Peak Power</p>
               </div>
-              <div className=" pt-4 ps-4">
+              <div className=" pt-4 ps-4 pe-5">
                 <button className="commonBtn">ORDER</button>
               </div>
             </div>
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-md-1"></div>
         </div>
       </div>
 
@@ -131,7 +131,7 @@ const Car = () => {
             <div>
               <h2 className="text-white">Experience Model</h2>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="p-4 d-flex justify-content-between">
             <div><button className="ExperienceBtn">ORDER NOW</button></div>
             <div><button className="compareBtn">COMPARE</button></div>
             </div>

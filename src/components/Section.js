@@ -8,7 +8,7 @@ const Section = ({title, description ,leftBtnText,rightBtnText, backgroundImg}) 
         <Wrap bgImage={backgroundImg}>
             <ItemText>
                 <h1>{title}</h1>
-                <p>{description}</p>
+                <h6>{description}</h6>
             </ItemText>
 
         <Buttons>

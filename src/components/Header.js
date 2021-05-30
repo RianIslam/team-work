@@ -45,9 +45,9 @@ const Header = () => {
 
                 <li><Link to="/home">Home</Link></li>
                 <li><Link to="/models">Model-Details</Link></li>
-                <li><a href="#">Trade-in</a></li>
+                {/* <li><a href="#">Trade-in</a></li>
                 <li><a href="#">Cybertruck</a></li>
-                <li><a href="#">Roadaster</a></li>
+                <li><a href="#">Roadaster</a></li> */}
                 
             </BurgerNav>
 
