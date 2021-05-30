@@ -1,8 +1,2 @@
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# team-work
+<h1> Aventador </h1>
+![Aventador](https://user-images.githubusercontent.com/67714964/120088400-ebd2d600-c111-11eb-95be-b25ff42df529.jpg)
